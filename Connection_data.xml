@@ -1,0 +1,4 @@
+<data>
+    <connection name="a">
+<interface>Ethernet</interface><ip>192.168.1.10</ip><mask>255.255.255.0</mask><gate>192.168.1.1</gate></connection><connection name="aa">
+<interface>a</interface><ip>192.168.168.1</ip><mask>192.168.168.1</mask><gate>192.168.168.1</gate></connection></data>
