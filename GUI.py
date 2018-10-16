@@ -356,12 +356,12 @@ class GUI:
         self.tree = tree(self.win, self.data, self.net, self.cmd, self.table)
         self.menu = menu(self.win, self.data, self.net, self.tree)
 
-        self.time = stoptime(0,"time",10,self.win)
+        #self.time = stoptime(0,"time",10,self.win)
 
         self.cmd.place(630,10)
         self.table.place(10,10)
         self.tree.place(10,195)
-        self.time.place(10,195)
+        #self.time.place(10,195)
 
         self.win.geometry("1200x400")
         self.win.mainloop()
